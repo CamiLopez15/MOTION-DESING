@@ -29,7 +29,7 @@ h1, h2 {
   padding: 1em;
   margin: 1em;
   border-radius: 1em;
-  width: 220px;
+  width: 150px;
   cursor: pointer;
   transition: transform 0.3s ease;
 }
