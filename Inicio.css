@@ -1,0 +1,116 @@
+/* Fondo general */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1e1e1e; /* fondo negro */
+    font-family: 'Arial', sans-serif;
+    color: white;
+  }
+  
+  /* Encabezado */
+  header {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Título con fuente decorativa (puedes cambiarla por una fuente personalizada si quieres) */
+  header h1 {
+    font-family: 'Papyrus', cursive; /* O puedes usar Google Fonts si prefieres */
+    font-size: 48px;
+    margin-bottom: 10px;
+  }
+  
+  /* Subtítulo */
+  header p {
+    font-size: 18px;
+    color: #ccc;
+  }
+  p{
+    font-size: 10px;
+  }
+  
+  /* Contenedor de la sección Inicio */
+  .Inicio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  /* Botón */
+  .scene button {
+    background-color: #c9922c; /* mostaza */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .scene button:hover {
+    background-color: #e0a63f;
+  }
+  
+  /* Créditos */
+  footer {
+    text-align: center;
+    padding: 5px;
+    color: #aaa;
+  }
+  
+  /* Fondo animación líquida */
+#liquid-transition {
+    position: fixed;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 200%;
+    background: radial-gradient(circle at 50% 0%, #c9922c 0%, #c9922c 60%, transparent 80%);
+    transform: translateY(-100%);
+    transition: transform 1s ease-in-out;
+    z-index: 9999;
+    pointer-events: none;
+  }
+  
+/* Transición líquida */
+#liquid-transition {
+    position: fixed;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 200%;
+    background: radial-gradient(circle at 50% 0%, #c9922c 0%, #c9922c 60%, transparent 80%);
+    transform: translateY(-100%);
+    transition: transform 1s ease-in-out;
+    z-index: 9999;
+    pointer-events: none;
+  }
+  
+  /* Cuando se activa la animación */
+  #liquid-transition.active {
+    transform: translateY(0);
+  }
+  
+  /* Estilo escena */
+  .scene {
+    text-align: center;
+    padding: 30px;
+  }
+  
+  /* Botón */
+  .scene button {
+    background-color: #c9922c;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .scene button:hover {
+    background-color: #e0a63f;
+  }
+  

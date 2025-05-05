@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #0e0e0e;
+  color: #f5f5f5;
+}
+
+header, footer {
+  text-align: center;
+  font-family: 'Papyrus', cursive; /* O puedes usar Google Fonts si prefieres */
+  padding: 2em;
+  background-color: #1f1f1f;
+}
+
+h1, h2 {
+  margin: 0.5em 0;
+}
+
+.timeline {
+  display: flex;
+  justify-content: space-around;
+  padding: 2em 1em;
+  background: #151515;
+  flex-wrap: wrap;
+}
+
+.scene {
+  background: #272727;
+  padding: 1em;
+  margin: 1em;
+  border-radius: 1em;
+  width: 220px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.scene:hover {
+  transform: scale(1.05);
+  background-color: #333;
+}
+
+.scene h3 {
+  margin-bottom: 0.5em;
+}
+
+.message {
+  padding: 2em;
+  text-align: center;
+  background: #222;
+}
+
+.credits {
+  padding: 1em;
+  font-size: 0.9em;
+}
+
+a {
+  color: #81d4fa;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Estilos para los botones */
+button {
+  background-color: yellow;
+  color: #0e0e0e; /* Color de texto oscuro para contraste */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  text-align: center;
+  display: inline-block;
+  margin: 10px;
+}
+
+button:hover {
+  background-color: #fdd835; /* Un tono más oscuro de amarillo al pasar el mouse */
+}
